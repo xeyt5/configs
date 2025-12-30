@@ -1,0 +1,116 @@
+window#waybar.custom-bar * {
+  min-height: 0;
+  min-width: 0;
+  font-family: Lexend, "JetBrainsMono NFP";
+  font-size: 8px;
+  font-weight: 600;
+}
+
+window#waybar.custom-bar {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: rgba(255,255,255,0);
+}
+
+window#waybar.custom-bar #workspaces button {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+window#waybar.custom-bar #workspaces button:hover {
+  color: #1e1e2e;
+  background-color: #cdd6f4;
+}
+
+window#waybar.custom-bar #workspaces button.active {
+  background-color: #1e1e2e;
+  color: #89b4fa;
+}
+
+window#waybar.custom-bar #workspaces button.urgent {
+  background-color: #1e1e2e;
+  color: #f38ba8;
+}
+
+window#waybar.custom-bar #clock,
+window#waybar.custom-bar #pulseaudio,
+window#waybar.custom-bar #custom-logo,
+window#waybar.custom-bar #custom-power,
+window#waybar.custom-bar #custom-spotify,
+window#waybar.custom-bar #custom-notification,
+window#waybar.custom-bar #cpu,
+window#waybar.custom-bar #tray,
+window#waybar.custom-bar #memory,
+window#waybar.custom-bar #window,
+window#waybar.custom-bar #battery,
+window#waybar.custom-bar #mpris {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #1e1e2e;
+}
+
+window#waybar.custom-bar #mpris.playing {
+  color: #a6e3a1;
+}
+
+window#waybar.custom-bar #mpris.paused {
+  color: #9399b2;
+}
+
+window#waybar.custom-bar #custom-sep {
+  padding: 0px;
+  color: #585b70;
+}
+
+window#waybar.custom-bar.empty #window {
+  background-color: transparent;
+}
+
+window#waybar.custom-bar #cpu {
+  color: #94e2d5;
+}
+
+window#waybar.custom-bar #memory {
+  color: #cba6f7;
+}
+
+window#waybar.custom-bar #clock {
+  color: #74c7ec;
+}
+
+window#waybar.custom-bar #battery {
+  color: #FFFFFF;
+}
+
+window#waybar.custom-bar #clock.simpleclock {
+  color: #89b4fa;
+}
+
+window#waybar.custom-bar #window {
+  color: #cdd6f4;
+}
+
+window#waybar.custom-bar #pulseaudio {
+  color: #b4befe;
+}
+
+window#waybar.custom-bar #pulseaudio.muted {
+  color: #a6adc8;
+}
+
+window#waybar.custom-bar #custom-logo {
+  color: #89b4fa;
+}
+
+window#waybar.custom-bar #custom-power {
+  color: #f38ba8;
+}
+
+window#waybar.custom-bar tooltip {
+  background-color: #181825;
+  border: 2px solid #89b4fa;
+}
